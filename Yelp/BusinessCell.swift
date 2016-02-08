@@ -22,7 +22,9 @@ class BusinessCell: UITableViewCell {
 
     var business: Business! {
         didSet {
-            posterImage.setImageWithURL(business.imageURL!)
+            if business.imageURL != nil{
+                posterImage.setImageWithURL(business.imageURL!)
+            }
             ratingsImage.setImageWithURL(business.ratingImageURL!)
             businessLabel.text = business.name
             businessLabel.sizeToFit()
