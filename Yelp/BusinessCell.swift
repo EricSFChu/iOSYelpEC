@@ -25,10 +25,14 @@ class BusinessCell: UITableViewCell {
             posterImage.setImageWithURL(business.imageURL!)
             ratingsImage.setImageWithURL(business.ratingImageURL!)
             businessLabel.text = business.name
+            businessLabel.sizeToFit()
             distanceLabel.text = business.distance
+            distanceLabel.sizeToFit()
             addressLabel.text = business.address
-
+            addressLabel.sizeToFit()
+            
             categoriesLabel.text = business.categories
+            categoriesLabel.sizeToFit()
             reviewLabel.text = "\(business.reviewCount)"
             
         }
@@ -37,6 +41,12 @@ class BusinessCell: UITableViewCell {
     override func awakeFromNib() {
         posterImage.layer.cornerRadius = 4
         posterImage.clipsToBounds = true
+        businessLabel.preferredMaxLayoutWidth = businessLabel.frame.size.width
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        businessLabel.preferredMaxLayoutWidth = businessLabel.frame.size.width
     }
 
 }
