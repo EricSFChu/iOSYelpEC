@@ -1,8 +1,8 @@
 # Project 3 - *FullPlate*
 
-**Name of your app** is a Yelp search app using the [Yelp API](http://www.yelp.com/developers/documentation/v2/search_api).
+**FullPlate** is a Yelp search app using the [Yelp API](http://www.yelp.com/developers/documentation/v2/search_api).
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
@@ -14,9 +14,9 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Search results page
-   - [ ] Infinite scroll for restaurant results.
-   - [ ] Implement map view of restaurant results.
+- [x] Search results page
+    - [ ] Infinite scroll for restaurant results.
+    - [ ] Implement map view of restaurant results.
 - [ ] Implement the restaurant detail page.
 
 The following **additional** features are implemented:
@@ -32,13 +32,13 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![WalkThrough](Yelp.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Unfortunately financial obligations prevented me from spending more time on this week's app.
 
 ## License
 
